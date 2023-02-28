@@ -3,6 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
 
+    android:id="@+id/btn"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
@@ -101,7 +102,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Życie: 0" />
+                android:text="Życie: 0"
+                android:textAlignment="center" />
 
             <Space
                 android:layout_width="wrap_content"
@@ -113,7 +115,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Tarcza: 0" />
+                android:text="Tarcza: 0"
+                android:textAlignment="center" />
 
             <Space
                 android:layout_width="wrap_content"
@@ -128,18 +131,18 @@
             android:orientation="horizontal">
 
             <Button
-                android:id="@+id/button12"
+                android:id="@+id/btnAtak1"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="Button" />
+                android:text="Zwykły atak (20)" />
 
             <Button
-                android:id="@+id/button14"
+                android:id="@+id/btnAtak2"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="Button" />
+                android:text="Leczenie (15)" />
 
         </LinearLayout>
 
@@ -149,18 +152,19 @@
             android:orientation="horizontal">
 
             <Button
-                android:id="@+id/button15"
-                android:layout_width="wrap_content"
+                android:id="@+id/btnAtak3"
+                android:layout_width="209dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="Button" />
+                android:text="Ryzykownie(-50%hp ale 50 atk)"
+                android:textSize="15dp" />
 
             <Button
-                android:id="@+id/button16"
+                android:id="@+id/btnAtak4"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="Button" />
+                android:text="Ochrona (20 tarczy)" />
         </LinearLayout>
 
     </LinearLayout>
